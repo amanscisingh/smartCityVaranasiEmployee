@@ -29,12 +29,6 @@
     </div>
 
     <script>
-        setTimeout(() => {
-            var profileBtn = document.getElementById('profileBtn');
-            profileBtn.href = '/profile/' + localStorage.getItem('userId');   
-        }, 500);
-
-
         // Service workers
         document.addEventListener('DOMContentLoaded', init, false);
         function init() {
